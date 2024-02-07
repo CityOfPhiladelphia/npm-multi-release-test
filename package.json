@@ -1,5 +1,5 @@
 {
-  "name": "mrst-core",
+  "name": "mrst",
   "version": "1.0.0",
   "description": "Test repo to test releasing multiple npm packages at once",
   "main": "src/index.js",
@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/CityOfPhiladelphia/npm-multi-release-test#readme",
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^23.0.2"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "debug": true,
     "dryRun": true,
     "plugins": [
@@ -29,12 +32,19 @@
       [
         "@semantic-release/npm",
         {
-          "pkgRoot": "src/components/comp2"
+          "pkgRoot": "src/core"
         }
       ],
-      ["@semantic-release/npm",
+      [
+        "@semantic-release/npm",
         {
           "pkgRoot": "src/components/comp1"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "src/components/comp2"
         }
       ],
       "@semantic-release/git"
