@@ -1,5 +1,5 @@
 module.exports = {
-  "repository": "github:CityOfPhiladelphia/npm-multi-release-test.git",
+  "repository": "git@github.com:CityOfPhiladelphia/npm-multi-release-test.git",
   "branches": [
     "main"
   ],
