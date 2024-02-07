@@ -28,5 +28,5 @@ jobs:
       - name: Run semantic-release for ${{ matrix.package }}
         run: npx semantic-release -r ${{ matrix.package }}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
