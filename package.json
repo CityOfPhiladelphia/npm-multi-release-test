@@ -1,0 +1,25 @@
+{
+  "name": "mrst-core",
+  "version": "1.0.0",
+  "description": "Test repo to test releasing multiple npm packages at once",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfPhiladelphia/npm-multi-release-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CityOfPhiladelphia/npm-multi-release-test/issues"
+  },
+  "homepage": "https://github.com/CityOfPhiladelphia/npm-multi-release-test#readme",
+  "dependencies": {
+    "semantic-release": "^23.0.2"
+  },
+  "release": {
+    "branches": ["main"]
+  }
+}
