@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CityOfPhiladelphia/npm-multi-release-test.git"
+    "url": "https://github.com/CityOfPhiladelphia/npm-multi-release-test.git"
   },
   "author": "",
   "license": "ISC",
