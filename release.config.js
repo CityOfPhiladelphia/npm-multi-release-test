@@ -25,7 +25,6 @@ module.exports = {
       {
         "pkgRoot": "src/components/comp2"
       }
-    ],
-    "@semantic-release/git"
+    ]
   ]
 };
