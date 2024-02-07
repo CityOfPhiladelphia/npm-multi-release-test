@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Run semantic-release for ${{ matrix.package }}
-        run: npx semantic-release -r ${{ matrix.package }}
+        run: npx semantic-release -r https://github.com/CityOfPhiladelphia/npm-multi-release-test.git
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
