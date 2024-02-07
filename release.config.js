@@ -4,7 +4,7 @@ module.exports = {
     "main"
   ],
   "debug": true,
-  "dryRun": true,
+  "dryRun": false,
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
