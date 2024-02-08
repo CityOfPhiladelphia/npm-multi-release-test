@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        package: [comp1]
+        package: [core, comp1, comp2]
 
     steps:
       - name: Checkout code
