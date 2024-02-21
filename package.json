@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Test repo to test releasing multiple npm packages at once",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": "github:CityOfPhiladelphia/npm-multi-release-test.git",
   "author": "",
   "license": "ISC",
@@ -25,7 +22,14 @@
     "targets": {}
   },
   "workspaces": [
+    "src/core/*",
     "src/components/*"
   ],
-  "dependencies": {}
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/js": "18.0.4",
+    "nx": "18.0.4"
+  }
 }

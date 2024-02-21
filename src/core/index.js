@@ -1,1 +1,1 @@
-console.log('core - nx release');
+console.log('core release - nx release');
