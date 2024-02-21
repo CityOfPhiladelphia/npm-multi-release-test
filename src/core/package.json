@@ -1,5 +1,6 @@
 {
   "name": "@phila/comp-comp3",
+  "access": "public",
   "version": "1.0.0",
   "description": "Test repo to test releasing multiple npm packages at once",
   "main": "index.js",
