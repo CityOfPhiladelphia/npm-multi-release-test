@@ -3,5 +3,23 @@
   "affected": {
     "defaultBase": "main"
   },
+  "release": {
+    "projectsRelationship": "independent",
+    "projects": ["src/core", "src/components/*"],
+    "releaseTagPattern": "release/{projectName}/{version}",
+    "git": {
+      "commitMessage": "chore(release): {version}"
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "file": false,
+        "createRelease": "github"
+      },
+      "projectChangelogs": true
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
   "nxCloudAccessToken": "NTRmNTk5ZDMtZjBjZS00MjgxLTk4OGEtMGJmMjFmYTkxZDdlfHJlYWQtd3JpdGU="
 }
