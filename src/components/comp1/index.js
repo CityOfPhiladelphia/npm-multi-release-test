@@ -1,1 +1,1 @@
-console.log('comp1 - nx release try');
+console.log('comp1 - firs release');
