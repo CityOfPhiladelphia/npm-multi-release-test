@@ -22,8 +22,7 @@
     "targets": {}
   },
   "workspaces": [
-    "src/core/*",
-    "src/components/*"
+    "src/*"
   ],
   "scripts": {},
   "private": true,

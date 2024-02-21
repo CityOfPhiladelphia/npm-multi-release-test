@@ -5,7 +5,7 @@
   },
   "release": {
     "projectsRelationship": "independent",
-    "projects": ["src/core/*", "src/components/*"],
+    "projects": ["src/*"],
     "releaseTagPattern": "release/{projectName}/{version}",
     "git": {
       "commit": true,
