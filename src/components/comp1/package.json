@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "github:CityOfPhiladelphia/npm-multi-release-test.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
