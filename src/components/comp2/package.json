@@ -1,14 +1,14 @@
 {
-  "name": "@phila/comp-comp2",
+  "name": "@phila/test-comp-comp2",
   "access": "public",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Phila-UI 3 comp test 2",
+  "author": "City of Philadelphia",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
