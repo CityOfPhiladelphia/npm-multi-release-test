@@ -13,10 +13,6 @@
     "url": "https://github.com/CityOfPhiladelphia/npm-multi-release-test/issues"
   },
   "homepage": "https://github.com/CityOfPhiladelphia/npm-multi-release-test#readme",
-  "dependencies": {
-    "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^23.0.2"
-  },
   "devDependencies": {
     "nx": "18.0.4",
     "semantic-release-npm-github-publish": "^1.5.5",
