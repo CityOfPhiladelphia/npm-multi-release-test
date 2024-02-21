@@ -1,6 +1,5 @@
 {
   "name": "@phila/test-comp-comp1",
-  "access": "public",
   "version": "0.0.1",
   "description": "Phila-UI 3 comp test 1",
   "author": "City of Philadelphia",
@@ -10,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }

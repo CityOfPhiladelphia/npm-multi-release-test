@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/CityOfPhiladelphia/npm-multi-release-test/issues"
-  },
-  "homepage": "https://github.com/CityOfPhiladelphia/npm-multi-release-test#readme"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
 }
