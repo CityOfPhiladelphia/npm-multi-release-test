@@ -8,17 +8,19 @@
     "projects": ["src/core/*", "src/components/*"],
     "releaseTagPattern": "release/{projectName}/{version}",
     "git": {
+      "commit": true,
+      "tag": true,
       "commitMessage": "chore(release): {version}"
     },
     "changelog": {
-      "workspaceChangelog": {
-        "file": false,
-        "createRelease": "github"
-      },
+      "workspaceChangelog": false,
       "projectChangelogs": true
     },
     "version": {
-      "conventionalCommits": true
+      "generatorOptions": {
+        "currentVersionResolver": "git-tag",
+        "specifierSource": "conventional-commits"
+      }
     }
   },
   "nxCloudAccessToken": "NTRmNTk5ZDMtZjBjZS00MjgxLTk4OGEtMGJmMjFmYTkxZDdlfHJlYWQtd3JpdGU="
