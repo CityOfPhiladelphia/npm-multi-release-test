@@ -5,7 +5,7 @@
   },
   "release": {
     "projectsRelationship": "independent",
-    "projects": ["src/core", "src/components/*"],
+    "projects": ["src/core/*", "src/components/*"],
     "releaseTagPattern": "release/{projectName}/{version}",
     "git": {
       "commitMessage": "chore(release): {version}"

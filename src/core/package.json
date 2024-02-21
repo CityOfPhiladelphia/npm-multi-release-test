@@ -1,5 +1,5 @@
 {
-  "name": "phila-mrst-core",
+  "name": "@phila/comp-comp3",
   "version": "1.0.0",
   "description": "Test repo to test releasing multiple npm packages at once",
   "main": "index.js",
