@@ -1,7 +1,7 @@
 {
   "name": "@phila/test-core",
   "access": "public",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Phila-UI 3 core test",
   "author": "City of Philadelphia",
   "license": "MIT",
